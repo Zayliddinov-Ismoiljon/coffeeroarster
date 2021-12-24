@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+         url('../fonts/barlow-v5-latin-regular.woff2') format('woff2'), 
+         url('../fonts/barlow-v5-latin-regular.woff') format('woff'); 
+  }
+  
+  @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: 
+         url('../fonts/barlow-v5-latin-700.woff2') format('woff2'), 
+         url('../fonts/barlow-v5-latin-700.woff') format('woff'); 
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+*img{
+    vertical-align: middle;
+}
+
+body{
+    font-family: "Barlow", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1320px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.coffe-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.site-logo-link{
+    text-decoration: none;
+}
+
+.site-logo-link:hover{
+    opacity: 0.6;
+}
+
+.site-logo{
+    width: 236px;
+    height: 26px;
+    padding: 0;
+}
+
+.site-list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-list-item{
+    font-family: "Barlow", sans-serif;
+    margin-left: 34px;
+}
+
+.site-list-link{
+    text-decoration: none;
+    color: #83888F;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.site-list-link:hover{
+    color: #333D4B;
+}
+
+.strong{
+    font-weight: 700;
+    font-size: 12px;
+    color: #333D4B;
+}
+
+.strong:hover{
+    opacity: 0.8;
+}
+
+.site-hero{
+    background-image: url(../images/Bitmap.jpg);
+    width: 1280px;
+    height: 600px;
+    padding: 0;
+}
+
+.great-coffe{
+    width: 483px;
+    margin-left: 86px;
+    padding-top: 100px;
+    
+}
+
+.great-coffe-title{
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    color: #FEFCF7;
+    font-size: 72px;
+    margin: 0;
+    padding: 0;
+}
+
+.great-coffe-text{
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin-top: 32px;
+    margin-bottom: 56px;
+    padding: 0;
+}
+
+.great-coffe-link{
+    text-decoration: none;
+    width: 217px;
+    height: 56px;
+    background-color: #66D2CF;
+    border-radius: 6px;
+    color: #FEFCF7;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-right: 31px;
+    padding-bottom: 16px;
+    padding-left: 31px;
+}
+
+.great-coffe-link:hover{
+    opacity: 0.8;
+}
